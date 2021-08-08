@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SukhrobPlayer</title>
+  <link rel="icon" href="images/music.svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <h1><i>mp3.Player</i></h1>
+
+  <!-- music-container -->
+  <div class="music-container" id="music-container">
+    <div id="music-info" class="music-info">
+      <h4 class="title" id="title"></h4>
+      <!-- time -->
+      <div class="time-container">
+        <span id="start">00:00</span>
+        <span id="end">00:00</span>
+      </div>
+      <!-- /time -->
+
+      <!-- progressContainer -->
+      <div class="progress-contianer" id="progress-container">
+        <div class="progress" id="progress"></div>
+      </div>
+    </div>
+    <!-- /progressContainer -->
+
+    <!-- audio -->
+    <audio src="audio/Ты и Я.mp3" id="audio"></audio>
+    <!-- /audio -->
+
+    <!-- imgContainer -->
+    <div class="img-container">
+      <img src="images/yurak.jpg" alt="" id="cover">
+    </div>
+    <!-- /imgContainer -->
+
+    <!--navigation  -->
+    <div class="navigation">
+      <!-- prevButton -->
+      <button id="prev" class="aciton-btn">
+        <i class="fas fa-backward"></i>
+      </button>
+      <!-- /prevButton -->
+
+      <!-- playButoon -->
+      <button id="play" class="aciton-btn action-btn-big">
+        <i class="fas fa-play"></i>
+      </button>
+      <!-- /playButoon -->
+
+      <!-- nextButton -->
+      <button id="next" class="aciton-btn">
+        <i class="fas fa-forward"></i>
+      </button>
+      <!-- /nextButton -->
+    </div>
+    <!-- /navigation  -->
+
+  </div>
+  <!-- /music-container -->
+
+
+  <!-- footer -->
+  <footer>
+    <div class="wrapper">
+      <div class="insta">
+        <a href="https:instagram.com/sukhrobWeb"><i class="fab fa-instagram myinstagram"></i></a>
+      </div>
+      <div class="telegram">
+        <a href="https:t.me/sukhrob_web"><i class="fab fa-telegram mytelegram"></i></a>
+      </div>
+      <div class="facebook">
+        <a href="https:facebook.com/suxrob.akbarov.01"><i class="fab fa-facebook myfacebook"></i></a>
+      </div>
+      <div class="github">
+        <a href="https:github.com/astonaqulovsukhrob"><i class="fab fa-github mygithub"></i></a>
+      </div>
+    </div>
+
+  </footer>
+  <!-- /footer -->
+
+
+
+  <!-- js -->
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>
