@@ -9,4 +9,4 @@ instagram: sukhrob_web
 
 Phone: +99891396021
 
-Email: astonaqulovsukhrob@gmail.com
+Email: suxrobakbarov1@gmail.com
